@@ -226,7 +226,7 @@ app.get(
     }
   }
 );
-
+//we have to write a post for todos which handles the todos post request
 app.post(
   "/todos",
   connectEnsureLogin.ensureLoggedIn(),
